@@ -6,8 +6,6 @@ import HeaderSocial from "../components/headerSocial/HeaderSocial";
 const Home = () => {
     return (
         <div>
-            <HeaderSocial />
-            <Header />
             <Banner />
             <Posts />
         </div>

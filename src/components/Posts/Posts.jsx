@@ -13,8 +13,11 @@ const Posts = () => {
                             <img src={inf.img} alt="" />
                             <div className="text">
                                 <h1>{inf.title}</h1>
-                                <p>{inf.body}</p>
-                                <span>{inf.who}</span>
+                                <div className="autor-date">
+                                    <span>{inf.who}</span>
+                                    <span>12/08/2024 12h:30</span>
+                                </div>
+                                <p>{inf.body.slice(50)}</p>
                             </div>
                         </div>
                     ))
